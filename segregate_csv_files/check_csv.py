@@ -249,9 +249,8 @@ def ambiguity(dates):
             LOGGER.warning("There might be an ambiguity between  "
                            "month: %d and date:%d", lists[i][2], lists[i][1])
 
-
+""" 
 def main():
-    """ Main function """
     fmts = ('%d-%m-%y', '%d-%m-%Y', '%m-%d-%Y', '%m-%d-%y', '%y-%m-%d',
             '%Y-%m-%d', '%Y-%d-%m', '%y-%d-%m', '%b-%d-%Y',
             '%b-%d-%y', '%B-%d-%Y', '%B-%d-%y', '%d-%b-%Y', '%d-%b-%y', '%d-%B-%Y', '%d-%B-%y')
@@ -273,3 +272,4 @@ def main():
     else:
         LOGGER.error("The directory doesnt exist")
         print(dir_path)
+"""
